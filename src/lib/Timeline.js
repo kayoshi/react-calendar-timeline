@@ -541,6 +541,8 @@ export default class ReactCalendarTimeline extends Component {
   }
 
   onScroll = () => {
+    return;
+    
     const scrollComponent = this.scrollComponent
     const canvasTimeStart = this.state.canvasTimeStart
     const scrollX = scrollComponent.scrollLeft
@@ -1592,7 +1594,6 @@ export default class ReactCalendarTimeline extends Component {
             className="rct-scroll"
             style={scrollComponentStyle}
             onScroll={this.onScroll}
-            onWheel={this.onWheel}
             onMouseDown={this.handleMouseDown}
             onMouseMove={this.handleMouseMove}
             onMouseUp={this.handleMouseUp}

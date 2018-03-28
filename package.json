@@ -1,6 +1,6 @@
 {
   "name": "relog-timeline",
-  "version": "0.15.9",
+  "version": "0.16.0",
   "description": "This is fork of react-calendar-timeline",
   "main": "lib/index.js",
   "module": "src/index.js",
