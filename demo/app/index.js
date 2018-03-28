@@ -11,6 +11,7 @@ import {
 } from 'react-router-dom'
 
 const demos = {
+  relog: require('./demo-relog').default,
   main: require('./demo-main').default,
   treeGroups: require('./demo-tree-groups').default,
   linkedTimelines: require('./demo-linked-timelines').default,

@@ -514,6 +514,9 @@ export default class Item extends Component {
       (dimensions.clippedLeft ? ' clipped-left' : '') +
       (dimensions.clippedRight ? ' clipped-right' : '')
 
+    dimensions.width = 32;
+    dimensions.height = 30;
+
     const style = {
       left: `${dimensions.left}px`,
       top: `${dimensions.top}px`,
