@@ -965,7 +965,7 @@ export default class ReactCalendarTimeline extends Component {
 
     if (pageY - topOffset > headerHeight && e.button === 0) {
       this.setState({
-        isDragging: true,
+        isDragging: false,
         dragStartPosition: e.pageX,
         dragLastPosition: e.pageX
       })
