@@ -1,7 +1,7 @@
 {
-  "name": "react-calendar-timeline",
+  "name": "relog-timeline",
   "version": "0.15.9",
-  "description": "react calendar timeline",
+  "description": "This is fork of react-calendar-timeline",
   "main": "lib/index.js",
   "module": "src/index.js",
   "scripts": {
@@ -29,7 +29,8 @@
   "contributors": [
     "Stanisław Chmiela <sjchmiela@gmail.com>",
     "Mike Joyce <mikejoyce19@gmail.com>",
-    "Samuel Rossetti"
+    "Samuel Rossetti",
+    "Azamat Mukhamejanov"
   ],
   "license": "MIT",
   "keywords": [
